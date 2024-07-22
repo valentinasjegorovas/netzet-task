@@ -3,12 +3,15 @@ import { customers } from '@/constants';
 const Testimonials = () => {
   return (
     <section className="w-full">
-      <div className="w-full h-[86px] bg-blue flex flex-col justify-center items-center">
+      <div className="w-full py-[30px] bg-blue flex flex-col justify-center items-center mobile:py-[15px]">
         <h2 className="text-white text-[40px] font-bold text-center mobile:text-[28px]">
           What Our Customers Say
         </h2>
       </div>
-      <div className="w-full pt-[80px] pb-[63px] px-[20px] bg-[url('/bg3.svg')] bg-cover bg-center flex flex-col justify-center items-center mobile:py-[50px]">
+      <div
+        className="w-full pt-[80px] pb-[63px] px-[20px] bg-[url('/bg3.svg')] bg-cover bg-center flex flex-col justify-center items-center mobile:py-[50px] mobile:bg-none mobile:bg-main 
+      mobile:pb-0"
+      >
         <div className="flex flex-col justify-center items-center gap-[20px] max-w-[791px]">
           {customers.map((item, i) => (
             <div

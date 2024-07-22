@@ -7,7 +7,7 @@ const Promo = () => {
         <h2 className="font-extrabold text-[35px] text-darkgrey text-center uppercase mobile:text-[24px] mobile:max-w-[242px]">
           Limited-time price of only
         </h2>
-        <div className="flex gap-[24px] items-center mobile:gap-[18px]">
+        <div className="flex gap-[24px] items-center mobile:gap-[18px] mobile:justify-center mobile:flex-wrap">
           <div className="font-extrabold text-[45px] text-red mobile:text-[35px]">
             $19.95
           </div>
