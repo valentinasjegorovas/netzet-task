@@ -32,14 +32,14 @@ export interface Customers {
 
 export const customers: Customers[] = [
   {
-    src: '/customer1.svg',
+    src: '/Customer-1.png',
     name: 'Ava S.',
     badge: '/badge.svg',
     stars: '/stars.svg',
     text: 'The Art of Smart Parenting is worth so much more than I paid for it! With every chapter, I got closer and closer with my daughter, and it"s great to know I CAN be the mom she deserves!',
   },
   {
-    src: '/customer2.svg',
+    src: '/Customer-2.png',
     name: 'Gregory A.',
     badge: '/badge.svg',
     stars: '/stars.svg',

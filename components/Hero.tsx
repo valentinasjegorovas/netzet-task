@@ -2,7 +2,7 @@ const Hero = () => {
   return (
     <section className="w-full min-h-[750px] bg-secondary relative z-10 flex flex-col justify-center items-center pt-[101px] pr-[94px] pb-[102px] pl-[152px] overflow-hidden laptop:px-[20px] laptop:pb-[80px] laptop:pt-[120px]">
       <img
-        src="./bg-1.svg"
+        src="./Bg-1.png"
         alt="bg-1"
         className="
           absolute
@@ -28,7 +28,7 @@ const Hero = () => {
           </h2>
         </div>
         <div className="relative z-10 max-w-[652px] flex-2 mobile:max-w-[323px] mobile:flex-1">
-          <img className="object-cover w-full" src="./bg-2.svg" alt="bg-2" />
+          <img className="object-cover w-full" src="./Vector.png" alt="bg-2" />
           <div className="w-[273px] h-[656px] absolute z-20 right-0 top-[-54px] mobile:w-[143px] mobile:h-[372px] mobile:top-[-33px]">
             <img
               src="./red.svg"
